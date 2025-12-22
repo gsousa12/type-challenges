@@ -21,8 +21,7 @@ function __test() {
   const testA: a = 1;
   const testB: a = 2;
 
-  logger("00002-medium-return-type");
-  console.log(testA, testB);
+  logger("00002-medium-return-type", { testA, testB });
 }
 
 __test();
