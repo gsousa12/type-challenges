@@ -1,4 +1,4 @@
-import { logger } from "../utils/logger";
+import { logger } from "../../utils/logger";
 
 /*
 https://github.com/type-challenges/type-challenges/blob/main/questions/00002-medium-return-type/README.md
