@@ -16,7 +16,7 @@ function __test() {
     else return 2;
   };
 
-  type a = MyReturnType<typeof fn>; // should be "1 | 2"
+  type a = MyReturnType<typeof fn>;
 
   const testA: a = 1;
   const testB: a = 2;
